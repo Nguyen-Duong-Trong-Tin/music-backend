@@ -11,6 +11,7 @@ const cors = require('cors');
 const corsOptions = {
   origin: [
     "http://localhost:5173",
+    "https://music-frontend-sigma.vercel.app",
     "http://localhost:8080",
     "https://music-admin-jet.vercel.app"
   ],
